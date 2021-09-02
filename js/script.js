@@ -4,7 +4,7 @@ const spinner = document.getElementById('spinner')
 spinner.style.display = 'none';
 const searchBook = () => {
     const searchField = document.getElementById('search-field')
-    const searchText = searchField.value
+    const searchText = searchField.value;
 //    clear data
     searchField.value = ''
     // handle empty search result
@@ -67,4 +67,4 @@ const displaySearchResult = data => {
         });
     }
 
-}
+};
